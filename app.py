@@ -8,7 +8,7 @@ from keras.preprocessing.image import img_to_array
 from keras.models import load_model
  
 #load model
-model=load_model(r"C:\folder_g\Plant Disesse DataSet DL Problem\Model\Various Plant Disease Detection Model1.h5")
+model=load_model(r"Model\Various Plant Disease Detection Model1.h5")
 
 print('@@ Model loaded')
 
