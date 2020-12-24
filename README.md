@@ -12,6 +12,21 @@
   ## Demo
   Link. (Deployment Link is on progress...).
   
+ 
+ __Frontent based on html, css.__
+  
+  ![error check your internet](https://github.com/IamVicky90/Plant-Disease-Prediction/blob/main/Images/1.PNG)
+  
+  
+  __Prediction Button where you drop your image.__
+  
+  ![error check your internet](https://github.com/IamVicky90/Plant-Disease-Prediction/blob/main/Images/Capture.PNG)
+  
+ 
+ __Final result with some advise that how to cure the infected Plant.__
+  
+  ![error check your internet](https://github.com/IamVicky90/Plant-Disease-Prediction/blob/main/Images/3.PNG)
+  
   ## Overview
 This is a simple image classification Flask app trained on the top of Keras API. The trained model (`Plant-Disease-Prediction/Model/Various Plant Disease Detection Model1.h5`) takes an image (from Plant Disease) as an input and predict the class of image from __diseased cotton leaf, diseased cotton plant, fresh cotton leaf, fresh cotton plant, Pepper bell Bacterial spot, Pepper bell healthy, Potato Early blight, Potato healthy, Potato Late blight, Tomato Target Spot, Tomato Tomato mosaic virus, Tomato Tomato YellowLeaf Curl Virus, Tomato Bacterial spot, Tomato Early blight, Tomato healthy, Tomato Late blight, Tomato Leaf Mold, Tomato Septoria leaf spot, Tomato Spider mites Two spotted spider mite__ denomination.
 
@@ -143,6 +158,7 @@ python app.py
 ```
 ## Libraries
 also mentioned in [requirements.txt](https://github.com/IamVicky90/Plant-Disease-Prediction/blob/main/requirements.txt)
+```
 * absl-py==0.11.0
 * astunparse==1.6.3
 * cached-property==1.5.2
@@ -189,5 +205,5 @@ also mentioned in [requirements.txt](https://github.com/IamVicky90/Plant-Disease
 * wincertstore==0.2
 * wrapt==1.12.1
 * zipp==3.4.0 
-
+```
 
