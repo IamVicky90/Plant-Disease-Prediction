@@ -31,7 +31,7 @@
 This is a simple image classification Flask app trained on the top of Keras API. The trained model (`Plant-Disease-Prediction/Model/Various Plant Disease Detection Model1.h5`) takes an image (from Plant Disease) as an input and predict the class of image from __diseased cotton leaf, diseased cotton plant, fresh cotton leaf, fresh cotton plant, Pepper bell Bacterial spot, Pepper bell healthy, Potato Early blight, Potato healthy, Potato Late blight, Tomato Target Spot, Tomato Tomato mosaic virus, Tomato Tomato YellowLeaf Curl Virus, Tomato Bacterial spot, Tomato Early blight, Tomato healthy, Tomato Late blight, Tomato Leaf Mold, Tomato Septoria leaf spot, Tomato Spider mites Two spotted spider mite__ denomination.
 
 ## Motivation
-What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding and reading some latest research papers on weekends. This idea came into my mind when I goto my village and see that how the farmers were seeing at the plants for different diseases. They were paying high fees to the plant disease specialists. So I utilize my best knowledge to overcome their expenses. 
+What could be a perfect way to utilize unfortunate lockdown period? Like most of you, I spend my time in cooking, Netflix, coding and reading some latest research papers on weekends. This idea came into my mind when I read some research papers and by seeing the Kaggle compititions on Plant Disease Detection then I goto my village and see that how the farmers were seeing at the plants for different diseases. They were paying high fees to the plant disease specialists. So I utilize my best knowledge to overcome their expenses. 
 
 ## Technical Aspect
 This project is divided into two part:
