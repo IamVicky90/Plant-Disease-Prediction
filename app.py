@@ -8,7 +8,7 @@ from keras.preprocessing.image import img_to_array
 from keras.models import load_model
  
 #load model
-model=load_model(r"Model\Various Plant Disease Detection Model1.h5")
+model=load_model("Model/Various Plant Disease Detection Model1.h5")
 
 print('@@ Model loaded')
 
@@ -78,7 +78,7 @@ app = Flask(__name__)
 @app.route("/", methods=['GET', 'POST'])
 def home():
   # return("Hellow World")
-  return render_template(r"index.html")
+  return render_template("index.html")
      
   
 # get input image from client then predict class and render respective .html page for solution
@@ -89,21 +89,17 @@ def predict():
     file = request.files['image'] # fet input
     filename = file.filename        
     print("@@ Input posted = ", filename)
-    file_path = os.path.join(r'C:\folder_g\Plant Disesse DataSet DL Problem\Static\User Upload', filename)
+    file_path = os.path.join('static','user_upload', filename)
     file.save(file_path)
  
     print("@@ Predicting class......")
     pred, output_page = pred_plant_dieas(plant=file_path)
-    print(".................",file_path.split('\\')[-3:])
-    file_path_=""
-    for i in file_path.split('\\')[-2:]:
-      file_path_=file_path_+'/'+i
-    file_path_='static'+file_path_
-    print("File Path is : ",file_path_)
+    print("File Path is : ",file_path)
                
-    return render_template(output_page, pred_output = pred, user_image = file_path_)
+    return render_template(output_page, pred_output = pred, user_image = file_path)
      
 # For local system &amp; cloud
 if __name__ == "__main__":
   app.run()
+
 
