@@ -96,10 +96,9 @@ def predict():
     pred, output_page = pred_plant_dieas(plant=file_path)
     print("File Path is : ",file_path)
                
-    return render_template(output_page, pred_output = pred, user_image = file_path)
+    return render_template(output_page, pred_output = pred, user_image = 'user_upload'+'/'+filename)
      
 # For local system &amp; cloud
 if __name__ == "__main__":
   app.run()
-
 
